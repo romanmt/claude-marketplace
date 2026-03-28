@@ -1,13 +1,18 @@
 {
-  "name": "claude-marketplace",
-  "version": "1.0.0",
-  "description": "A curated collection of Claude Code plugins",
+  "name": "romanmt-claude-marketplace",
+  "owner": {
+    "name": "Matt Roman"
+  },
+  "metadata": {
+    "description": "A curated collection of Claude Code plugins",
+    "version": "1.0.0"
+  },
   "plugins": [
     {
       "name": "openclaw-designer",
-      "version": "0.1.0",
       "description": "OpenClaw configuration plugin for Claude Code",
-      "path": "plugins/openclaw-designer"
+      "version": "0.1.0",
+      "source": "./plugins/openclaw-designer"
     }
   ]
 }
